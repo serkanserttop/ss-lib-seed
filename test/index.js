@@ -8,4 +8,7 @@ describe('lib-seed', function() {
 	it('getHello return Hello World', function() {
 		expect(myModule.getHello() === 'Hello World').to.be.true
 	});
+	it('getWorld returns Hello World', function() {
+		expect(myModule.getWorld() === 'World').to.be.true
+	});
 });
