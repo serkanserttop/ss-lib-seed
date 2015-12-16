@@ -1,6 +1,12 @@
 function getHello() {
 	return 'Hello World';
 }
+
+function getWorld() {
+	return 'World';
+}
+
 module.exports = {
-	getHello: getHello
+	getHello: getHello,
+	getWorld: getWorld
 };
