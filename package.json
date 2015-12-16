@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/serkanserttop/ss-lib-seed"
+    "url": "https://github.com/serkanserttop/ss-lib-seed.git"
   },
   "author": "Serkan Serttop <serkanserttop@gmail.com>",
   "license": "ISC",
