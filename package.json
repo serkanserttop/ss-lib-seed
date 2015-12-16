@@ -1,0 +1,33 @@
+{
+  "name": "ss-lib-seed",
+  "version": "0.0.0-semantically-released",
+  "description": "Seed lib to setup commitizen, TravisCI, testing, etc",
+  "main": "src/index.js",
+  "scripts": {
+    "commit": "git-cz",
+    "test": "mocha test/index.js",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/serkanserttop/ss-lib-seed"
+  },
+  "author": "Serkan Serttop <serkanserttop@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/serkanserttop/ss-lib-seed/issues"
+  },
+  "homepage": "https://github.com/serkanserttop/ss-lib-seed#readme",
+  "devDependencies": {
+    "chai": "3.4.1",
+    "commitizen": "2.4.6",
+    "cz-conventional-changelog": "1.1.5",
+    "mocha": "2.3.4",
+    "semantic-release": "^4.3.5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  }
+}
